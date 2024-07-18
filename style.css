@@ -1,10 +1,17 @@
 body{
-    padding: 20px;
+  padding: 20px;
 }
 .landing{
-    background-color: palegoldenrod;
+  position: relative;
+  background-color: palegoldenrod;
+  height: 100vh;
 }
-
+.welcome{
+  position: relative;
+  align-content: center;
+  align-items: center;
+  top: 30vh;
+}
 .about{
     background-color: goldenrod;
 }
@@ -13,6 +20,11 @@ body{
 }
 .blog{
     background-color: goldenrod;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 .roboto-thin {
     font-family: "Roboto", sans-serif;
@@ -84,4 +96,10 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-style: italic;
-  }  
+  }
+  .roboto-large {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    font-style: normal;
+  }
