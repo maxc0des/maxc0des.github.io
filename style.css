@@ -18,22 +18,28 @@ body{
   display: inline-block;
 }
 .about{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 300px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: medium;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
 }
 /*.image{
 }*/
+.latest_project{
+  height: 100px;
+}
 .projects{
-    background-color: palegoldenrod;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
 }
 .blog{
-    background-color: goldenrod;
+  background-color: goldenrod;
 }
 .content{
   display: flex;
@@ -109,5 +115,10 @@ body{
     font-style: normal;
   }
 /*this site is responsive!*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
+  .about{
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+  }
 }
