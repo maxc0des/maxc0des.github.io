@@ -1,5 +1,6 @@
 body{
   padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .landing{
   position: relative;
@@ -17,6 +18,10 @@ body{
 .container{
   display: inline-block;
 }
+.all-projects{
+  display: flex;
+  justify-content: space-around;
+}
 .about{
   display: flex;
   justify-content: space-around;
@@ -26,11 +31,12 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: medium;
+  border-style: groove;
 }
-/*.image{
-}*/
-.latest_project{
-  height: 100px;
+.project{
+  min-height: 100px;
+  max-height: fit-content;
+  border: 2px solid green;
 }
 .projects{
   font-family: "Roboto", sans-serif;
@@ -38,13 +44,14 @@ body{
   font-style: normal;
   font-size: medium;
 }
-.blog{
-  background-color: goldenrod;
+.content div{
+  padding: 20px;
 }
-.content{
+.footer{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
+
 /*animations*/
 @keyframes slidein {
   0% {

@@ -13,23 +13,7 @@ function change_image() {
     document.getElementById("image_frame").src = source;
 }
 
-function alligne_items() {
-    var aboutText = document.getElementById("about_text");
-    var latestProject = document.getElementById("latest_project");
-  
-    if (aboutText && latestProject) {
-      var offset = aboutText.offsetLeft;
-      console.log("Offset left of about_text: " + offset);
-  
-      latestProject.style.transform = `translateX(${offset}px)`;
-      console.log("New transform of latest_project: " + latestProject.style.transform);
-    } else {
-      console.error("One or both elements are not found.");
-    }
-  }
-
 document.getElementById('image_frame').addEventListener("click", change_image);
-window.addEventListener("resize", alligne_items);
 
 console.log('hello world');
 
