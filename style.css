@@ -31,12 +31,10 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: medium;
-  border-style: groove;
 }
 .project{
   min-height: 100px;
   max-height: fit-content;
-  border: 2px solid green;
 }
 .projects{
   font-family: "Roboto", sans-serif;
@@ -127,5 +125,11 @@ body{
     flex-direction: column;
     justify-content: space-around;
     height: 500px;
+  }
+  .all-projects{
+    flex-direction: column;
+  }
+  .welcome{
+    margin-left: 15%;
   }
 }

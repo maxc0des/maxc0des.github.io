@@ -1,0 +1,22 @@
+{
+    "latest_project":{
+        "description":"Catch is an exciting blend of the classic board game Mister X and the real-life game of hide-and-seek. One player, Mister X, carries an ESP32 camera that captures and sends photos to the Catchers via a Telegram bot every few minutes. The Catchers use these photos to track and capture Mister X before time runs out. Utilizing modern technology, including an ESP32, Python scripting, and MQTT communication, Catch offers a thrilling chase that combines physical activity with digital fun."
+    },
+    "projects": [
+    {
+      "title": "Random Fact",
+      "description": "A website that gives you random facts, using the wikipedia api",
+      "url": "https://github.com/maxc0des/random"
+    },
+    {
+      "title": "Find my",
+      "description": "A Program for an ESP32 to determine the position of a Bluetooth device to prevent the Device from getting left behind",
+      "url": "https://github.com/maxc0des/ble.tracker"
+    },
+    {
+      "title": "This website",
+      "description": "I made a website, you might already know it ;)",
+      "url": "https://github.com/maxc0des/website"
+    }
+  ]
+}

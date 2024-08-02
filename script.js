@@ -13,15 +13,32 @@ function change_image() {
     document.getElementById("image_frame").src = source;
 }
 
+function load_content(){
+    fetch("content.json")
+    .then(response => {
+      if (!response.ok) {
+        document.getElementById('title').innerHTML = "something went wrong here :( <br> try again later";
+        throw new Error(`HTTP error! status: ${response.status}`);
+        
+      }
+      return response.json();
+    })
+    .then(data => {
+        document.getElementById('content').innerHTML = data.latest_project.description;
+        data.projects.forEach((project, index) => {
+            document.getElementById(`project-name${index + 1}`).innerHTML = project.title;
+            document.getElementById(`project-description${index + 1}`).innerHTML = project.description;
+            document.getElementById(`project-repo${index + 1}`).href = project.url;
+          });
+    })
+    .catch(error => {
+      console.error("Fehler beim Abrufen des Artikels:", error);
+    });
+}
+
 document.getElementById('image_frame').addEventListener("click", change_image);
+document.addEventListener('DOMContentLoaded', load_content)
 
 console.log('hello world');
 
-document.addEventListener('DOMContentLoaded', function() {
-    fetch('latest-project.txt')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('content').textContent = data;
-        })
-        .catch(error => console.error('Error loading the text file:', error));
-});
+
