@@ -49,7 +49,10 @@ body{
   display: flex;
   justify-content: center;
 }
-
+.latest-project{
+  display: flex;
+  justify-content: space-around;
+}
 /*animations*/
 @keyframes slidein {
   0% {
@@ -66,7 +69,7 @@ body{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: medium;
+  font-size: 20px;
 }
 
 @keyframes fadeIn {
@@ -82,8 +85,8 @@ body{
   animation: typing 2s steps(21, end) forwards, blinking .8s infinite;
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 50px;
   font-style: normal;
 }
 @keyframes typing {

@@ -24,7 +24,7 @@ function load_content(){
       return response.json();
     })
     .then(data => {
-        document.getElementById('content').innerHTML = data.latest_project.description;
+        document.getElementById('content').innerHTML = `<span class="roboto-bold">What im currently working on:</span><br><br> ${data.latest_project.description}`;
         data.projects.forEach((project, index) => {
             document.getElementById(`project-name${index + 1}`).innerHTML = project.title;
             document.getElementById(`project-description${index + 1}`).innerHTML = project.description;
