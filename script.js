@@ -40,5 +40,3 @@ document.getElementById('image_frame').addEventListener("click", change_image);
 document.addEventListener('DOMContentLoaded', load_content)
 
 console.log('hello world');
-
-

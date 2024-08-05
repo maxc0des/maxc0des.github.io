@@ -1,5 +1,5 @@
 body{
-  padding: 20px;
+  padding: 40px;
   font-family: "Roboto", sans-serif;
 }
 .landing{
@@ -21,10 +21,11 @@ body{
 .all-projects{
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 .about{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 300px;
   font-family: "Roboto", sans-serif;
@@ -42,13 +43,17 @@ body{
   font-style: normal;
   font-size: medium;
 }
-.content div{
-  padding: 20px;
+
+.project-container{
+  padding-top: 40px;
 }
+
 .footer{
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
+
 .latest-project{
   display: flex;
   justify-content: space-around;
@@ -133,6 +138,12 @@ body{
     flex-direction: column;
   }
   .welcome{
-    margin-left: 15%;
+    margin-left: 0px;
+  }
+  .typed-out{
+    font-size: 30px;
+  }
+  .appear-text{
+    font-size: 17px;
   }
 }
