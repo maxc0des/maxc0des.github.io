@@ -1,4 +1,0 @@
-Catch is an exciting blend of the classic board game Mister X and the real-life game of hide-and-seek.
-One player, Mister X, carries an ESP32 camera that captures and sends photos to the Catchers via a Telegram bot every few minutes.
-The Catchers use these photos to track and capture Mister X before time runs out.
-Utilizing modern technology, including an ESP32, Python scripting, and MQTT communication, Catch offers a thrilling chase that combines physical activity with digital fun.

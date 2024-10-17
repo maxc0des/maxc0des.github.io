@@ -18,5 +18,16 @@
       "description": "I made a website, you might already know it ;)",
       "url": "https://github.com/maxc0des/website"
     }
+  ],
+  "images":[
+    {
+      "source":"https://cloud-otoqttk8l-hack-club-bot.vercel.app/0image.png"
+    },
+    {
+      "source":"https://cloud-dck6q99j4-hack-club-bot.vercel.app/0img_0930.jpg"
+    },
+    {
+      "source":"https://cloud-q2fyfkv8l-hack-club-bot.vercel.app/0img_4358.jpg"
+    }
   ]
 }

@@ -2,26 +2,20 @@ body{
   padding: 40px;
   font-family: "Roboto", sans-serif;
 }
-.landing{
-  position: relative;
-  height: 100vh;
-}
-.welcome{
-  position: relative;
-  display: flex;
-  align-content: center;
-  align-items: center;
-  top: 30vh;
-  margin-left: 20%;
-  display: inline-block;
-}
 .container{
   display: inline-block;
 }
 .all-projects{
   display: flex;
-  justify-content: space-around;
-  padding-top: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.all-projects div {
+  flex: 1 1 20%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .about{
   display: flex;
@@ -129,6 +123,22 @@ body{
   }
 /*this site is responsive!*/
 @media only screen and (max-width: 700px) {
+  .landing{
+    position: relative;
+    height: 100vh;
+  }
+  .welcome{
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    top: 30vh;
+    margin-left: 20%;
+    display: inline-block;
+  }
+  .container{
+    display: inline-block;
+  }
   .about{
     flex-direction: column;
     justify-content: space-around;
