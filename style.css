@@ -5,6 +5,9 @@ body{
 .container{
   display: inline-block;
 }
+.down{
+  display: none;
+}
 .all-projects{
   display: flex;
   justify-content: space-between;
@@ -36,6 +39,7 @@ body{
   font-weight: 400;
   font-style: normal;
   font-size: medium;
+  padding-top: 40px;
 }
 
 .project-container{
@@ -51,7 +55,29 @@ body{
 .latest-project{
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
 }
+
+/*blog*/
+.blog-container{
+  padding-bottom: 20px;
+}
+
+.all-blogs{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blog-container div{
+  flex: 1 1 20%;
+  padding: 5px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
 /*animations*/
 @keyframes slidein {
   0% {
@@ -96,6 +122,10 @@ body{
   from { border-color: transparent }
   to { border-color: orange; }
 }
+@keyframes down{
+  from{padding-top: 50vh;}
+  to{padding-top: 52vh;}
+}
 /*font styles*/
   .roboto-regular {
     font-family: "Roboto", sans-serif;
@@ -138,6 +168,14 @@ body{
   }
   .container{
     display: inline-block;
+  }
+  .down{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 50vh;
+    animation: down 2.5s infinite;
   }
   .about{
     flex-direction: column;

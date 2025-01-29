@@ -29,5 +29,22 @@
     {
       "source":"https://cloud-q2fyfkv8l-hack-club-bot.vercel.app/0img_4358.jpg"
     }
+  ],
+  "blog":[
+    {
+      "title": "My first blog post",
+      "description": "I wrote my first blog post about the development of this website",
+      "url": "#post1"
+    },
+    {
+      "title": "I'll write more posts soon",
+      "description": "I promise",
+      "url": "#"
+    },
+    {
+      "title": "lorem",
+      "description": "hi mom",
+      "url": "#"
+    }
   ]
 }
