@@ -1,6 +1,6 @@
 {
     "latest_project":{
-        "description":"Together with my robotics team, I am currently working on the software of our robot for the 'wro future engineers' competition. This year we are planning on using a neuronal network to navigate the robot. As soon as the competition is over, I will open source the source code. The project really makes me learn new, super interesting things so far. "
+        "description":"I am currently working together with other teens from all over Europe to organise a satellite hackathon called “eurohacks”. I am personally working on the marketing and the online event. Go check out <a href=„https://eurohacks.org“>eurohacks.org</a>to learn more about the event and leave us a follow<a href=„https://www.instagram.com/eurohacks2025“>@eurohacks2025</a>"
     },
     "projects": [
     {
@@ -14,9 +14,9 @@
       "url": "https://github.com/maxc0des/ble.tracker"
     },
     {
-      "title": "This website",
-      "description": "I made a website, you might already know it ;)",
-      "url": "https://github.com/maxc0des/website"
+      "title": "Autonomous Robot",
+      "description": "For the 'wro future engineers' competition I built the software for our robot. It uses an neuronal network and multiple algorithms to navigate the parkour.",
+      "url": "https://github.com/maxc0des/future-engineers-25"
     }
   ],
   "images":[
