@@ -1,16 +1,16 @@
 {
     "latest_project":{
-        "description":"I am currently working together with other teens from all over Europe to organise a satellite hackathon called “eurohacks”. I am personally working on the marketing and the online event. Go check out <a href=„https://eurohacks.org“>eurohacks.org</a>to learn more about the event and leave us a follow<a href=„https://www.instagram.com/eurohacks2025“>@eurohacks2025</a>"
+        "description":"I am currently working varois side projects including a web app called bucketlist, wich is a platform to share and discover bucket lists and a speedometer with a gps module"
     },
     "projects": [
     {
-      "title": "Random Fact",
-      "description": "A website that gives you random facts, using the wikipedia api",
-      "url": "https://github.com/maxc0des/random"
+      "title": "Ounedai",
+      "description": "A website that only works once a month.",
+      "url": "https://github.com/maxc0des/ounedai"
     },
     {
       "title": "Find my",
-      "description": "A Program for an ESP32 to determine the position of a Bluetooth device to prevent the Device from getting left behind",
+      "description": "A Program for an ESP32 to determine the position of a Bluetooth device to prevent the device from getting left behind",
       "url": "https://github.com/maxc0des/ble.tracker"
     },
     {
